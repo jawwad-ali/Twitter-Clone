@@ -29,11 +29,11 @@ function Posts({ displayName, username, verified, text, image, avatar }) {
                         <p>{text}</p>
                     </div>
                 </div>
-                <img src={image} />
+                <img src={image} alt="post_URL" />
                 <div className="post__footer">
                     <ChatBubbleOutline />
                     <Repeat />
-                    <FavoriteBorder />
+                    <FavoriteBorder /> 
                     <Publish />
                 </div>
             </div>
